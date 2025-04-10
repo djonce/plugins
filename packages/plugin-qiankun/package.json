@@ -1,6 +1,6 @@
 {
   "name": "cyber-plugin-qiankun",
-  "version": "2.44.3",
+  "version": "2.45.0",
   "description": "umi plugin for qiankun",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -43,10 +43,10 @@
   "dependencies": {
     "@babel/runtime": "^7.4.5",
     "address": "^1.1.2",
+    "cyber-qiankun": "^2.10.18",
     "http-proxy-middleware": "^2.0.3",
     "lodash": "^4.17.15",
-    "path-to-regexp": "^1.7.0",
-    "cyber-qiankun": "^2.10.18"
+    "path-to-regexp": "^1.7.0"
   },
   "devDependencies": {
     "mockjs": "^1.0.1-beta3",

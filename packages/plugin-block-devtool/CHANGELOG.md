@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.4.0 (2025-04-10)
+
+### Bug Fixes
+
+- **plugin-block-devtool:** fix dev tool no work error ([#141](https://github.com/umijs/plugins/issues/141)) ([801904b](https://github.com/umijs/plugins/commit/801904baafd2eee7aeee0cf60713ed2671d3dd13))
+- **plugin-block-devtool:** localesPath no found bug ([#163](https://github.com/umijs/plugins/issues/163)) ([ad74fee](https://github.com/umijs/plugins/commit/ad74fee5e321c59df0c56bc9b9d698148ab90695))
+- **plugin-qiankun:** chainWebpack not return ([64a8cdd](https://github.com/umijs/plugins/commit/64a8cdd58735c97cba46286f72243ae0bfc0c87e))
+
+### Features
+
+- **plugin-block-devtool:** support use all blocks ([#652](https://github.com/umijs/plugins/issues/652)) ([4cf6b85](https://github.com/umijs/plugins/commit/4cf6b851607683578ed31ba5d7549270d82b5b3e))
+- umi-plugin-block-dev migrate to @umijs/plugin-block-devtool for umi3 ([#41](https://github.com/umijs/plugins/issues/41)) ([48511d3](https://github.com/umijs/plugins/commit/48511d334146e5142706ea638001bbd2c8eecc7b))
+- 通过环境变量来设置 ga ([#84](https://github.com/umijs/plugins/issues/84)) ([3df8003](https://github.com/umijs/plugins/commit/3df80031a6b5e69155b36d6132b0e9d17361a16c))
+
 # [1.3.0](https://github.com/umijs/plugins/compare/@umijs/plugin-block-devtool@1.2.4...@umijs/plugin-block-devtool@1.3.0) (2021-07-13)
 
 ### Features

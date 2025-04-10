@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.4.0 (2025-04-10)
+
+### Bug Fixes
+
+- **onpenapi:** openapi support node10 ([#567](https://github.com/umijs/plugins/issues/567)) ([99c5eb0](https://github.com/umijs/plugins/commit/99c5eb06ab92c32a658e6470667f2914a5500965))
+- **openapi:** use swagger-ui-dist ([0113920](https://github.com/umijs/plugins/commit/01139205b6fafb10b64c3fd8622db284ecc09fd3))
+
+### Features
+
+- **openapi:** support openapi plugins ([#527](https://github.com/umijs/plugins/issues/527)) ([516a266](https://github.com/umijs/plugins/commit/516a266c00e283d0115ad8fc0bd2fd44d90b1a0f))
+- **openapi:** support openAPIConfig is array ([#553](https://github.com/umijs/plugins/issues/553)) ([2aad730](https://github.com/umijs/plugins/commit/2aad730857846e13de9b8c3d9d3c8c9293ac9568))
+- **openapi:** sync some extra props with openapi generator. ([#599](https://github.com/umijs/plugins/issues/599)) ([ca2bb9d](https://github.com/umijs/plugins/commit/ca2bb9de50ffaba07a2cf4e90fe4793d477d2570))
+
 ## [1.3.3](https://github.com/umijs/plugins/compare/@umijs/plugin-openapi@1.3.2...@umijs/plugin-openapi@1.3.3) (2022-06-18)
 
 ### Bug Fixes

@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 2.6.0 (2025-04-10)
+
+### Bug Fixes
+
+- **access:** fix access no work error ([#836](https://github.com/umijs/plugins/issues/836)) ([9dccf1b](https://github.com/umijs/plugins/commit/9dccf1b49ed4449d766297225bd662d942f6827e))
+- **access:** 修复因为可变数据导致的数据不同步的问题 ([#433](https://github.com/umijs/plugins/issues/433)) ([5ea0702](https://github.com/umijs/plugins/commit/5ea07023c34aa4f4e5af21ec698ffc274ea50364))
+- **layout:** useAccess was not found ([#627](https://github.com/umijs/plugins/issues/627)) ([28afcbd](https://github.com/umijs/plugins/commit/28afcbd024b261d962157c5e0b8d26baac5c4c34)), closes [#628](https://github.com/umijs/plugins/issues/628)
+- access hmr ([baacdf2](https://github.com/umijs/plugins/commit/baacdf22bf84682c90698d722866aa8fe6f8edb9))
+
+### Features
+
+- access add Strict Mode ([#636](https://github.com/umijs/plugins/issues/636)) ([0a4954f](https://github.com/umijs/plugins/commit/0a4954f86c09d39735b30cc303889ee1a67020b2))
+- **plugin-access:** fix traverseModifyRoutes ([#617](https://github.com/umijs/plugins/issues/617)) ([38606e5](https://github.com/umijs/plugins/commit/38606e50ece6e88a714cf6683eb105ec284ecbf5))
+- add plugin-access ([#35](https://github.com/umijs/plugins/issues/35)) ([9f78fae](https://github.com/umijs/plugins/commit/9f78fae0f81b764fffc0f134042c23279d6776a3))
+- delete showWarnining option for plugin-access ([#38](https://github.com/umijs/plugins/issues/38)) ([f99169b](https://github.com/umijs/plugins/commit/f99169b18df96c544d06f48d66dad3ab10c3f8b3))
+- Make parent route unaccessible if child routes exist and all of child routes are unaccessible ([#105](https://github.com/umijs/plugins/issues/105)) ([f4e4d48](https://github.com/umijs/plugins/commit/f4e4d48f62418b6caa7998dc24954c835776fcb0))
+- plugin access ([869117e](https://github.com/umijs/plugins/commit/869117ee34272ac77bf35a620384376950d7cd0a))
+
 ## [2.5.1](https://github.com/umijs/plugins/compare/@umijs/plugin-access@2.5.0...@umijs/plugin-access@2.5.1) (2022-04-25)
 
 ### Bug Fixes

@@ -1,6 +1,6 @@
 {
   "name": "@umijs/plugin-esbuild",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "description": "@umijs/plugin-esbuild",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",

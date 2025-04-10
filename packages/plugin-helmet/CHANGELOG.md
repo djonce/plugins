@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.2.0 (2025-04-10)
+
+### Bug Fixes
+
+- **helmet:** add script tag ([#756](https://github.com/umijs/plugins/issues/756)) ([b237d6e](https://github.com/umijs/plugins/commit/b237d6efb64adcaac8998a6cd0b3a2726c599533))
+- **ssr:** 修复 SSR 下 helmet 无法添加 <style> 的问题 ([#584](https://github.com/umijs/plugins/issues/584)) ([e0ab706](https://github.com/umijs/plugins/commit/e0ab706f9f82e8e1234ac444ca4802186e9731d2))
+- **ssr:** 修复 SSR 下 helmet 无法添加<link>的问题 ([#561](https://github.com/umijs/plugins/issues/561)) ([8072710](https://github.com/umijs/plugins/commit/8072710bb433a109eb01f9d4e56059ff18270592))
+- antd icons all in bundle when enable locale antd ([#250](https://github.com/umijs/plugins/issues/250)) ([11219b5](https://github.com/umijs/plugins/commit/11219b5f84b140709d03a97c778ce9436d522a04))
+- helmet types ([#220](https://github.com/umijs/plugins/issues/220)) ([a43f6ea](https://github.com/umijs/plugins/commit/a43f6ea6ce8dbf3848aa16df886cc2433d61589a))
+
+### Features
+
+- add helmet plugin ([#180](https://github.com/umijs/plugins/issues/180)) ([70ffc80](https://github.com/umijs/plugins/commit/70ffc801a92d784d31f64acbb7488d8296131611))
+- enhancement for mfsu ([#326](https://github.com/umijs/plugins/issues/326)) ([655c0da](https://github.com/umijs/plugins/commit/655c0da475748a0671dd3a5de8ab079dbe1bed5a))
+
 ## [1.1.4](https://github.com/umijs/plugins/compare/@umijs/plugin-helmet@1.1.3...@umijs/plugin-helmet@1.1.4) (2021-12-14)
 
 ### Bug Fixes

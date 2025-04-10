@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file. See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 1.5.0 (2025-04-10)
+
+### Bug Fixes
+
+- **esbuild:** default target ([#592](https://github.com/umijs/plugins/issues/592)) ([33b62d9](https://github.com/umijs/plugins/commit/33b62d9be089cef6d6120460f2948295b8bbee4b))
+- **esbuild:** minify exposes target config for es5 projects ([#571](https://github.com/umijs/plugins/issues/571)) ([cb93b3a](https://github.com/umijs/plugins/commit/cb93b3a969d9f94c808eda8e02828f347cc2eca0))
+- **esbuild:** rm pure setting & bump esbuild-loader to 2.9.2 ([#587](https://github.com/umijs/plugins/issues/587)) ([98bb5ab](https://github.com/umijs/plugins/commit/98bb5ab3e35af90dad4daef1f2c58577c3b52efc)), closes [umijs/umi#6422](https://github.com/umijs/umi/issues/6422)
+- esbuild platform undefined ([#477](https://github.com/umijs/plugins/issues/477)) ([1fd2887](https://github.com/umijs/plugins/commit/1fd2887ee849a2ff079f265645f49d5920cc3fda))
+- esbuild ssr ([#309](https://github.com/umijs/plugins/issues/309)) ([68ca76f](https://github.com/umijs/plugins/commit/68ca76fd22e23a67e9928d2addb9209c9955ef42))
+- esbuild targets ([#336](https://github.com/umijs/plugins/issues/336)) ([34c3a1d](https://github.com/umijs/plugins/commit/34c3a1dcc0bcb81cb13cfe36a306cfc1d9ecedc7))
+
+### Features
+
+- **esbuild:** apply userconfig targets to esbuild ([#586](https://github.com/umijs/plugins/issues/586)) ([7bf5ce8](https://github.com/umijs/plugins/commit/7bf5ce8a758b6fcc77c7f32cf70c7070aa6a0b1c)), closes [umijs/umi#6359](https://github.com/umijs/umi/issues/6359)
+- **esbuild:** exposes minify pure config ([#575](https://github.com/umijs/plugins/issues/575)) ([ed7f688](https://github.com/umijs/plugins/commit/ed7f688da63e343c330211147d74916c510c504a))
+- **esbuild:** upgrade esbuild-loader to 2.16 ([#731](https://github.com/umijs/plugins/issues/731)) ([9815c25](https://github.com/umijs/plugins/commit/9815c257418f7246d6c9dd659a5bae3b4a4251f0))
+- plugin-esbuild ([#194](https://github.com/umijs/plugins/issues/194)) ([2fec1de](https://github.com/umijs/plugins/commit/2fec1de41d4688f3026fe0d447b12d1969cf64d8))
+
+### Reverts
+
+- Revert "feat(esbuild): upgrade esbuild-loader to 2.16 (#731)" (#732) ([4b2b1d6](https://github.com/umijs/plugins/commit/4b2b1d6e0996c90658249854331b0b6d9df4a65b)), closes [#731](https://github.com/umijs/plugins/issues/731) [#732](https://github.com/umijs/plugins/issues/732)
+
 ## [1.4.2](https://github.com/umijs/plugins/compare/@umijs/plugin-esbuild@1.4.1...@umijs/plugin-esbuild@1.4.2) (2022-09-28)
 
 **Note:** Version bump only for package @umijs/plugin-esbuild
