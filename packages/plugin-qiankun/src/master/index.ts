@@ -267,7 +267,7 @@ function useCompatibleMode(api: IApi) {
   api.addDepInfo(() => {
     return {
       name: 'qiankun',
-      range: require('../../package.json').dependencies.qiankun,
+      range: require('../../package.json').dependencies['cyber-qiankun'],
     };
   });
 

@@ -4,7 +4,7 @@
  */
 
 import { BaseIConfig } from '@umijs/types';
-import { FrameworkConfiguration, FrameworkLifeCycles } from 'qiankun';
+import { FrameworkConfiguration, FrameworkLifeCycles } from 'cyber-qiankun';
 
 export type HistoryType = 'browser' | 'hash';
 export type App = {
